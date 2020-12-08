@@ -30,7 +30,7 @@ blocks:
         commands:
           - checkout
       jobs:
-        - name: unit and integration tests
+        - name: unit and integration tests 2
           commands:
             - cache restore
             - npm test
