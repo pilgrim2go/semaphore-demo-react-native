@@ -49,7 +49,7 @@ blocks:
             - artifact push workflow android/app/build/outputs/apk/release/app-release.apk
 promotions:
   - name: Build app
-    pipeline_file: release-build-android.yml
+    pipeline_file: release-build.yml
     auto_promote_on:
       - result: passed
         branch:
